@@ -1,4 +1,4 @@
-# Salazar
+# Salazar client
 
 Salazar is a personal blog which was created using React, Strapi, GraphQL API and Apollo Client v3.0.
 
@@ -45,3 +45,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/salazar-client)](https://github.com/kevinadhiguna)
