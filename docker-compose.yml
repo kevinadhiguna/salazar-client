@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  salazar_client:
+    container_name: salazar_client
+    build: 
+      context: .
+    environment: 
+      REACT_APP_BACKEND_URL: ${REACT_APP_BACKEND_URL}
+    # To fix the issue : https://www.semicolonworld.com/question/72586/react-app-exiting-in-docker-container-with-exit-code-0
+    stdin_open: true
+    ports: 
+      - "3000:3000"
