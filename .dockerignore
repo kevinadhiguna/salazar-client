@@ -40,3 +40,10 @@ build
 .DS_Store
 **/.git
 **/.DS_Store
+
+# specific for this project
+demo
+
+# docker
+Dockerfile
+docker-compose.yml
